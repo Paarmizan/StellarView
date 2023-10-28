@@ -1,8 +1,6 @@
 <template>
   <v-app>
-    <v-main>
-      12345
-    </v-main>
+    <router-view/>
   </v-app>
 </template>
 
