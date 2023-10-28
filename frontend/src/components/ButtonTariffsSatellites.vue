@@ -21,9 +21,6 @@ button{
   border: 3px solid white;
   border-radius: 19px;
   font-size: 36px;
-  top: 140px;
-  left: 40px;
-  position: absolute;
   color: white;
   margin-left: 60px;
 

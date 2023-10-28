@@ -18,8 +18,6 @@ button{
   background: #15C6E9;
   border-radius: 19px;
   font-size: 24px;
-  top: 440px;
-  left: 40px;
   position: absolute;
   color: white;
 
