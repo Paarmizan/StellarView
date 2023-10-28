@@ -20,7 +20,6 @@ button{
   font-size: 36px;
   top: 40px;
   left: 40px;
-  position: absolute;
 
   transition: 0.3s background-color, transform 0.3s;
 

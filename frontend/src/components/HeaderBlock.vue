@@ -1,6 +1,6 @@
 <template>
   <div class="header-block" ref="headerBlock">
-   <v-app-bar class="header-block__bar">
+   <v-app-bar class="header-block__bar" ref="bar">
      <v-spacer/>
      <div class="d-flex align-center">
        <h1 class="header-block__title">Stellar View</h1>
@@ -47,6 +47,9 @@ export default {
   created() {
   },
 
+  mounted() {
+  },
+
   methods: {
   },
 
@@ -60,14 +63,15 @@ export default {
   position: fixed;
   width: 100%;
   padding: 0 40px;
+  z-index: 100;
 }
 
 .header-block__bar{
   border-bottom: 3px solid white;
-  background-color: transparent!important;
   height: 80px!important;
   width: 100%;
   padding-top: 10px;
+  background-color: rgba(0, 0, 0, 1) !important;
 }
 
 .header-block__title {
