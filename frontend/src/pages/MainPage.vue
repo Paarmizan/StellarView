@@ -43,6 +43,7 @@
     <div
         class="main-page__block main-page__block3"
     >
+      <CardDI style="margin: 0 auto;"></CardDI>
     </div>
 
     <div
@@ -59,10 +60,11 @@ import ButtonOrder from "@/components/ButtonOrder.vue";
 import ButtonTariffsSatellites from "@/components/ButtonTariffsSatellites.vue";
 import TariffCard from "@/components/TariffCard.vue";
 import SatellitesList from "@/components/SatellitesList.vue";
+import CardDI from "@/components/CardDataInput.vue";
 export default {
   name: 'MainPage',
 
-  components: {HeaderBlock, ButtonOrder, ButtonTariffsSatellites, TariffCard, SatellitesList},
+  components: {HeaderBlock, ButtonOrder, ButtonTariffsSatellites, TariffCard, SatellitesList, CardDI},
 
   props: {
   },

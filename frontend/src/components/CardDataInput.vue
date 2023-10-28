@@ -42,7 +42,7 @@
       </btn-s-s>
     </div>
     <div class="CardPrice">
-      <div class="OutputPrice">
+      <div class="OutputPrice" style="position: relative; bottom: 60px; left: 100px">
         <p>Цена: n/a руб.</p>
       </div>
     </div>

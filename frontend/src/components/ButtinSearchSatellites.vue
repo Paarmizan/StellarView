@@ -18,9 +18,10 @@ button{
   background: #15C6E9;
   border-radius: 19px;
   font-size: 24px;
-  position: absolute;
+  position: relative;
   color: white;
-
+  bottom: -350px;
+  left: 30px;
   transition: transform 0.3s;
 
 
