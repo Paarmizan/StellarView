@@ -42,10 +42,17 @@ export default {
 
 .tariff-card {
   background-color: white;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
+  outline: 20px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.tariff-card:hover {
+  transform: scale(1.05);
 }
 
 .tariff-card__img {
@@ -71,14 +78,22 @@ export default {
 }
 
 .tariff-card__text {
-  position: relative;
-  width: 80%;
+  width: 40%;
+  align-self: start;
+  margin-left: 10%;
 }
 
-.tariff-card__text::after {
+.tariff-card__price {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.tariff-card__price::before{
   content: "";
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 10%;
   width: 80%;
   border-bottom: 2px solid black;

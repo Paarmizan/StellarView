@@ -48,6 +48,7 @@
     <div
         class="main-page__block main-page__block4"
     >
+      <SatellitesList></SatellitesList>
     </div>
   </div>
 </template>
@@ -57,10 +58,11 @@ import HeaderBlock from "@/components/HeaderBlock.vue";
 import ButtonOrder from "@/components/ButtonOrder.vue";
 import ButtonTariffsSatellites from "@/components/ButtonTariffsSatellites.vue";
 import TariffCard from "@/components/TariffCard.vue";
+import SatellitesList from "@/components/SatellitesList.vue";
 export default {
   name: 'MainPage',
 
-  components: {HeaderBlock, ButtonOrder, ButtonTariffsSatellites, TariffCard},
+  components: {HeaderBlock, ButtonOrder, ButtonTariffsSatellites, TariffCard, SatellitesList},
 
   props: {
   },
@@ -118,7 +120,7 @@ export default {
 
 .block2__title {
   width: 80%;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 60px auto;
   text-align: center;
   vertical-align: middle;
   height: 60px;
@@ -131,4 +133,7 @@ export default {
   width: 20%;
 }
 
+.main-page__block4 {
+  padding-top: 130px;
+}
 </style>
